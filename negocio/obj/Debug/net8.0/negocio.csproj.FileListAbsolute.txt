@@ -1,0 +1,15 @@
+C:\Users\TechSoft\source\repos\tabla\negocio\bin\Debug\net8.0\negocio.deps.json
+C:\Users\TechSoft\source\repos\tabla\negocio\bin\Debug\net8.0\negocio.dll
+C:\Users\TechSoft\source\repos\tabla\negocio\bin\Debug\net8.0\negocio.pdb
+C:\Users\TechSoft\source\repos\tabla\negocio\bin\Debug\net8.0\datos.dll
+C:\Users\TechSoft\source\repos\tabla\negocio\bin\Debug\net8.0\datos.pdb
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.csproj.AssemblyReference.cache
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.AssemblyInfoInputs.cache
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.AssemblyInfo.cs
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.csproj.CoreCompileInputs.cache
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.csproj.Up2Date
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.dll
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\refint\negocio.dll
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\negocio.pdb
+C:\Users\TechSoft\source\repos\tabla\negocio\obj\Debug\net8.0\ref\negocio.dll
