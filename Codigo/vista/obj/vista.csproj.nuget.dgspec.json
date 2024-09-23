@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\vista.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj",
+        "projectName": "datos",
+        "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj",
+        "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TechSoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj",
+        "projectName": "negocio",
+        "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj",
+        "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TechSoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj": {
+                "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\vista.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\vista.csproj",
+        "projectName": "vista",
+        "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\vista.csproj",
+        "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TechSoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj": {
+                "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
