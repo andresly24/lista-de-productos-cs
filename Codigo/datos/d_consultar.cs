@@ -68,6 +68,15 @@ namespace datos
             comando.Parameters.Clear();
         }
 
+        public void ResetTable()
+        {
+            comando.Connection = conexion.AbrirConexion();
+            comando.CommandText = "ResetTable";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+        }
+
         public void Descargar()
         {
             string conexionpath = conexion.ConexionPathURL;

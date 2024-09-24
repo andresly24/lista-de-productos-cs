@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gbLz9O3OBbk=",
+  "dgSpecHash": "ZhHKqtlqYYQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj",
+  "projectFilePath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TechSoft\\.nuget\\packages\\closedxml\\0.102.3\\closedxml.0.102.3.nupkg.sha512",
     "C:\\Users\\TechSoft\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

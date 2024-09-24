@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{084DCE28-422B-4BDE-9106-B793D69DF83E}|datos\\datos.csproj|c:\\users\\techsoft\\documents\\repositorios git\\lista-de-productos-cs\\codigo\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084DCE28-422B-4BDE-9106-B793D69DF83E}|datos\\datos.csproj|solutionrelative:datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|c:\\users\\techsoft\\documents\\repositorios git\\lista-de-productos-cs\\codigo\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|c:\\users\\techsoft\\documents\\repositorios git\\lista-de-productos-cs\\codigo\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084DCE28-422B-4BDE-9106-B793D69DF83E}|datos\\datos.csproj|c:\\users\\techsoft\\documents\\repositorios git\\lista-de-productos-cs\\codigo\\datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084DCE28-422B-4BDE-9106-B793D69DF83E}|datos\\datos.csproj|solutionrelative:datos\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\Form1.cs",
               "RelativeDocumentMoniker": "vista\\Form1.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\vista\\Form1.cs",
               "RelativeDocumentMoniker": "vista\\Form1.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "n_consultar.cs",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\n_consultar.cs",
               "RelativeDocumentMoniker": "negocio\\n_consultar.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "d_consultar.cs",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\d_consultar.cs",
               "RelativeDocumentMoniker": "datos\\d_consultar.cs",
@@ -86,16 +86,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "conexiondb.cs",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\conexiondb.cs",
               "RelativeDocumentMoniker": "datos\\conexiondb.cs",
               "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\conexiondb.cs",
               "RelativeToolTip": "datos\\conexiondb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T15:43:00.647Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

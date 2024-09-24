@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            pictureBox5 = new PictureBox();
+            logo = new PictureBox();
             cerrarbtn = new PictureBox();
             listatxt = new Label();
             panel2 = new Panel();
@@ -58,10 +60,13 @@
             label7 = new Label();
             eliminarbtn = new Button();
             panel5 = new Panel();
+            eliminartodobtn = new Button();
             label12 = new Label();
             label11 = new Label();
             datelbl = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)cerrarbtn).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dlbtn).BeginInit();
@@ -78,17 +83,43 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(logo);
             panel1.Controls.Add(cerrarbtn);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(681, 47);
+            panel1.Size = new Size(1320, 47);
             panel1.TabIndex = 2;
+            panel1.MouseDown += Form1_MouseDown;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Cursor = Cursors.Hand;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(1261, 8);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(22, 28);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 2;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click_1;
+            // 
+            // logo
+            // 
+            logo.Cursor = Cursors.Hand;
+            logo.Image = (Image)resources.GetObject("logo.Image");
+            logo.Location = new Point(2, 1);
+            logo.Name = "logo";
+            logo.Size = new Size(47, 47);
+            logo.SizeMode = PictureBoxSizeMode.StretchImage;
+            logo.TabIndex = 1;
+            logo.TabStop = false;
             // 
             // cerrarbtn
             // 
             cerrarbtn.Cursor = Cursors.Hand;
             cerrarbtn.Image = (Image)resources.GetObject("cerrarbtn.Image");
-            cerrarbtn.Location = new Point(647, 14);
+            cerrarbtn.Location = new Point(1288, 12);
             cerrarbtn.Name = "cerrarbtn";
             cerrarbtn.Size = new Size(19, 19);
             cerrarbtn.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -100,7 +131,7 @@
             // 
             listatxt.AutoSize = true;
             listatxt.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            listatxt.Location = new Point(14, 9);
+            listatxt.Location = new Point(21, 9);
             listatxt.Name = "listatxt";
             listatxt.Size = new Size(183, 30);
             listatxt.TabIndex = 3;
@@ -114,7 +145,7 @@
             panel2.Controls.Add(listatxt);
             panel2.Location = new Point(17, 73);
             panel2.Name = "panel2";
-            panel2.Size = new Size(369, 566);
+            panel2.Size = new Size(912, 566);
             panel2.TabIndex = 3;
             // 
             // dlbtn
@@ -123,7 +154,7 @@
             dlbtn.ErrorImage = null;
             dlbtn.Image = (Image)resources.GetObject("dlbtn.Image");
             dlbtn.InitialImage = null;
-            dlbtn.Location = new Point(328, 17);
+            dlbtn.Location = new Point(870, 14);
             dlbtn.Name = "dlbtn";
             dlbtn.Size = new Size(19, 19);
             dlbtn.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -144,11 +175,11 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Cursor = Cursors.Hand;
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-            dataGridView1.Location = new Point(14, 43);
+            dataGridView1.Location = new Point(18, 43);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.ShowEditingIcon = false;
-            dataGridView1.Size = new Size(336, 505);
+            dataGridView1.Size = new Size(875, 505);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
@@ -164,9 +195,9 @@
             panel3.Controls.Add(itemtb);
             panel3.Controls.Add(label3);
             panel3.Controls.Add(label2);
-            panel3.Location = new Point(405, 73);
+            panel3.Location = new Point(945, 73);
             panel3.Name = "panel3";
-            panel3.Size = new Size(257, 205);
+            panel3.Size = new Size(350, 205);
             panel3.TabIndex = 4;
             // 
             // label13
@@ -190,7 +221,7 @@
             agregarbtn.ForeColor = SystemColors.ControlLightLight;
             agregarbtn.Location = new Point(15, 151);
             agregarbtn.Name = "agregarbtn";
-            agregarbtn.Size = new Size(228, 33);
+            agregarbtn.Size = new Size(321, 33);
             agregarbtn.TabIndex = 10;
             agregarbtn.Text = "Agregar";
             agregarbtn.UseVisualStyleBackColor = false;
@@ -198,7 +229,6 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Cursor = Cursors.Hand;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(69, 74);
             pictureBox2.Name = "pictureBox2";
@@ -209,7 +239,6 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(69, 115);
             pictureBox1.Name = "pictureBox1";
@@ -221,11 +250,15 @@
             // preciotb
             // 
             preciotb.Font = new Font("Segoe UI", 9.75F);
+            preciotb.ForeColor = Color.Gray;
             preciotb.Location = new Point(93, 113);
             preciotb.Name = "preciotb";
-            preciotb.Size = new Size(149, 25);
+            preciotb.Size = new Size(243, 25);
             preciotb.TabIndex = 8;
+            preciotb.Text = "Ingrese el Precio";
             preciotb.TextChanged += preciotb_TextChanged;
+            preciotb.Enter += preciotb_Enter;
+            preciotb.Leave += preciotb_Leave;
             // 
             // label4
             // 
@@ -239,12 +272,17 @@
             // 
             // itemtb
             // 
+            itemtb.BackColor = Color.White;
             itemtb.Font = new Font("Segoe UI", 9.75F);
+            itemtb.ForeColor = Color.Gray;
             itemtb.Location = new Point(93, 71);
             itemtb.Name = "itemtb";
-            itemtb.Size = new Size(149, 25);
+            itemtb.Size = new Size(243, 25);
             itemtb.TabIndex = 6;
+            itemtb.Text = "Ingrese el Item";
             itemtb.TextChanged += itemtb_TextChanged;
+            itemtb.Enter += itemtb_Enter;
+            itemtb.Leave += itemtb_Leave;
             // 
             // label3
             // 
@@ -279,9 +317,9 @@
             panel4.Controls.Add(itemtbE);
             panel4.Controls.Add(label6);
             panel4.Controls.Add(label7);
-            panel4.Location = new Point(405, 296);
+            panel4.Location = new Point(945, 296);
             panel4.Name = "panel4";
-            panel4.Size = new Size(257, 205);
+            panel4.Size = new Size(350, 205);
             panel4.TabIndex = 11;
             // 
             // label8
@@ -305,7 +343,7 @@
             editarbtn.ForeColor = SystemColors.ControlLightLight;
             editarbtn.Location = new Point(19, 151);
             editarbtn.Name = "editarbtn";
-            editarbtn.Size = new Size(107, 33);
+            editarbtn.Size = new Size(155, 33);
             editarbtn.TabIndex = 11;
             editarbtn.Text = "Editar";
             editarbtn.UseVisualStyleBackColor = false;
@@ -320,9 +358,9 @@
             agregarbtn2.FlatStyle = FlatStyle.Flat;
             agregarbtn2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             agregarbtn2.ForeColor = SystemColors.ControlLightLight;
-            agregarbtn2.Location = new Point(132, 151);
+            agregarbtn2.Location = new Point(181, 151);
             agregarbtn2.Name = "agregarbtn2";
-            agregarbtn2.Size = new Size(111, 33);
+            agregarbtn2.Size = new Size(155, 33);
             agregarbtn2.TabIndex = 10;
             agregarbtn2.Text = "Aceptar";
             agregarbtn2.UseVisualStyleBackColor = false;
@@ -330,7 +368,6 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Cursor = Cursors.Hand;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(69, 74);
             pictureBox3.Name = "pictureBox3";
@@ -341,7 +378,6 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Cursor = Cursors.Hand;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.Location = new Point(69, 115);
             pictureBox4.Name = "pictureBox4";
@@ -355,7 +391,7 @@
             preciotbE.Font = new Font("Segoe UI", 9.75F);
             preciotbE.Location = new Point(93, 113);
             preciotbE.Name = "preciotbE";
-            preciotbE.Size = new Size(149, 25);
+            preciotbE.Size = new Size(243, 25);
             preciotbE.TabIndex = 8;
             // 
             // label5
@@ -373,7 +409,7 @@
             itemtbE.Font = new Font("Segoe UI", 9.75F);
             itemtbE.Location = new Point(93, 71);
             itemtbE.Name = "itemtbE";
-            itemtbE.Size = new Size(149, 25);
+            itemtbE.Size = new Size(243, 25);
             itemtbE.TabIndex = 6;
             // 
             // label6
@@ -407,7 +443,7 @@
             eliminarbtn.ForeColor = SystemColors.ControlLightLight;
             eliminarbtn.Location = new Point(15, 69);
             eliminarbtn.Name = "eliminarbtn";
-            eliminarbtn.Size = new Size(228, 33);
+            eliminarbtn.Size = new Size(159, 33);
             eliminarbtn.TabIndex = 13;
             eliminarbtn.Text = "Eliminar";
             eliminarbtn.UseVisualStyleBackColor = false;
@@ -416,13 +452,31 @@
             // panel5
             // 
             panel5.BackColor = SystemColors.InactiveBorder;
+            panel5.Controls.Add(eliminartodobtn);
             panel5.Controls.Add(label12);
             panel5.Controls.Add(eliminarbtn);
             panel5.Controls.Add(label11);
-            panel5.Location = new Point(405, 518);
+            panel5.Location = new Point(945, 518);
             panel5.Name = "panel5";
-            panel5.Size = new Size(257, 121);
+            panel5.Size = new Size(350, 121);
             panel5.TabIndex = 11;
+            // 
+            // eliminartodobtn
+            // 
+            eliminartodobtn.BackColor = Color.Red;
+            eliminartodobtn.Cursor = Cursors.Hand;
+            eliminartodobtn.FlatAppearance.BorderColor = Color.White;
+            eliminartodobtn.FlatAppearance.BorderSize = 0;
+            eliminartodobtn.FlatStyle = FlatStyle.Flat;
+            eliminartodobtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            eliminartodobtn.ForeColor = SystemColors.ControlLightLight;
+            eliminartodobtn.Location = new Point(181, 70);
+            eliminartodobtn.Name = "eliminartodobtn";
+            eliminartodobtn.Size = new Size(159, 33);
+            eliminartodobtn.TabIndex = 14;
+            eliminartodobtn.Text = "Eliminar TODO";
+            eliminartodobtn.UseVisualStyleBackColor = false;
+            eliminartodobtn.Click += eliminartodobtn_Click;
             // 
             // label12
             // 
@@ -458,7 +512,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(681, 682);
+            ClientSize = new Size(1319, 682);
             Controls.Add(datelbl);
             Controls.Add(panel5);
             Controls.Add(panel4);
@@ -466,11 +520,15 @@
             Controls.Add(panel1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
+            MouseDown += Form1_MouseDown;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)logo).EndInit();
             ((System.ComponentModel.ISupportInitialize)cerrarbtn).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -523,5 +581,8 @@
         private Label label11;
         private PictureBox dlbtn;
         private Label datelbl;
+        private Button eliminartodobtn;
+        private PictureBox logo;
+        private PictureBox pictureBox5;
     }
 }

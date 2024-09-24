@@ -51,13 +51,39 @@ select * from objetos
 --delete from objetos where id=@iditem
 --go
 
+
+--create proc ResetTable
+--as
+--begin
+--	if Object_id('objetos','U') is not null
+--	begin
+--		drop table objetos;
+--	end
+
+--	create table objetos
+--	(
+--	id int identity (1,1) primary key,
+--	item nvarchar(100),
+--	precio float
+--	)
+--end
+
+--create proc ResetTable
+--as
+--truncate table objetos;
+--go
+
+
+exec ResetTable
 exec MostrarItems
 exec EliminarItems 1
 exec InsertarItems 'string','123'
 exec EditarItems 1,'string','123'
 
 -- ELIMINAR PROC
-drop PROCEDURE EliminarItems
+drop PROCEDURE ResetTable2
+
 
 -- PERMISOS 
 select * from fn_my_permissions(NULL, 'DATABASE');
+

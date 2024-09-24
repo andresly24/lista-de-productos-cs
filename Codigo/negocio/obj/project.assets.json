@@ -5215,11 +5215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj",
+      "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj",
       "projectName": "negocio",
-      "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\negocio.csproj",
+      "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj",
       "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\negocio\\obj\\",
+      "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5241,8 +5241,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj": {
-              "projectPath": "C:\\Users\\TechSoft\\Documents\\Repositorios GIT\\lista-de-productos-cs\\Codigo\\datos\\datos.csproj"
+            "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj": {
+              "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj"
             }
           }
         }

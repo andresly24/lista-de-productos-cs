@@ -34,6 +34,11 @@ namespace negocio
             objetos.Eliminar(Convert.ToInt32(id));
         }
 
+        public void resetp() 
+        {
+            objetos.ResetTable();
+        }
+
         public void descargarp()
         {
             objetos.Descargar();

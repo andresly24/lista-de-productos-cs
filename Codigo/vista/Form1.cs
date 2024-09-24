@@ -1,6 +1,7 @@
 using negocio;
 using System.Data;
 using System.Linq.Expressions;
+using System.Runtime.InteropServices;
 
 namespace vista
 {
@@ -9,14 +10,28 @@ namespace vista
         N_consultar objetos = new N_consultar();
         private string id = null;
         private string itemText = null;
+
+        // Winform Movimiento
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
         private void Mostrar()
         {
             dataGridView1.DataSource = objetos.mostrarp();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -25,6 +40,13 @@ namespace vista
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
 
             datelbl.Text = DateTime.Now.ToString("dd/mm/yyyy");
+
+            dataGridView1.Columns[0].Width = 40;
+            dataGridView1.Columns[2].Width = 100;
+
+            itemtbE.Enabled = false;
+            preciotbE.Enabled = false;
+
         }
 
         private void cerrarbtn_Click(object sender, EventArgs e)
@@ -65,6 +87,7 @@ namespace vista
 
         }
 
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -77,6 +100,8 @@ namespace vista
                 id = dataGridView1.CurrentRow.Cells["id"].Value.ToString();
                 itemtbE.Text = dataGridView1.CurrentRow.Cells["item"].Value.ToString();
                 preciotbE.Text = dataGridView1.CurrentRow.Cells["precio"].Value.ToString();
+                itemtbE.Enabled = true;
+                preciotbE.Enabled = true;
             }
             else
             {
@@ -98,6 +123,8 @@ namespace vista
                     MessageBox.Show("Se actualizo correctamente");
                     itemtbE.Text = null;
                     preciotbE.Text = null;
+                    itemtbE.Enabled = false;
+                    preciotbE.Enabled = false;
                     Mostrar();
                 }
 
@@ -132,7 +159,27 @@ namespace vista
                 MessageBox.Show("No se pudo eliminar por: \n\r" + ex.Message);
                 throw;
             }
-            
+
+        }
+
+        private void eliminartodobtn_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+            "¿Está seguro que desea continuar?",
+            "Advertencia",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Se elimino toda la Tabla");
+                objetos.resetp();
+                Mostrar();
+            }
+            else
+            {
+                Mostrar();
+            }
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
@@ -144,6 +191,47 @@ namespace vista
         {
             objetos.descargarp();
             MessageBox.Show("Se ha descargado la Lista en 'Descargas' \n\rcomo 'lista_de_productos'");
+        }
+
+        private void itemtb_Enter(object sender, EventArgs e)
+        {
+            if (itemtb.Text == "Ingrese el Item" || itemtb.ForeColor == Color.Gray)
+            {
+                itemtb.Text = "";
+                itemtb.ForeColor = Color.Black;
+            }
+        }
+
+        private void itemtb_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(itemtb.Text))
+            {
+                itemtb.Text = "Ingrese el Item";
+                itemtb.ForeColor = Color.Gray;
+            }
+        }
+
+        private void preciotb_Enter(object sender, EventArgs e)
+        {
+            if (preciotb.Text == "Ingrese el Precio" || preciotb.ForeColor == Color.Gray)
+            {
+                preciotb.Text = "";
+                preciotb.ForeColor = Color.Black;
+            }
+        }
+
+        private void preciotb_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(preciotb.Text))
+            {
+                preciotb.Text = "Ingrese el Precio";
+                preciotb.ForeColor = Color.Gray;
+            }
+        }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

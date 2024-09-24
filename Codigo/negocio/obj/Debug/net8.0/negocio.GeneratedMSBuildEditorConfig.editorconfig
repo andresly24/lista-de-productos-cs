@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = negocio
-build_property.ProjectDir = C:\Users\TechSoft\Documents\Repositorios GIT\lista-de-productos-cs\Codigo\negocio\
+build_property.ProjectDir = C:\Users\TechSoft\source\repos\tabla\negocio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
