@@ -1,5 +1,5 @@
 # Lista de Productos en CSharp 
-Lista de productos con el uso de C# .NET v8.0, aplicando el MVC y CRUD.__
+Lista de productos con el uso de C# .NET v8.0, aplicando el MVC y CRUD.\
 Una practica basica de conexion entre SQL SERVER EXPRESS y CSharp con listas de productos para negocios
 
 Es un proyecto de practica por lo cual siempre habra **Errores** y se hara reparaciones de **Bugs** si hace falta.
