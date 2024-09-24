@@ -1,11 +1,15 @@
 # Lista de Productos en CSharp 
 Lista de productos con el uso de C# .NET v8.0, aplicando el MVC y CRUD
+Una practica basica de conexion entre SQL SERVER EXPRESS y CSharp con listas de productos para negocios
+
+Es un proyecto de practica por lo cual siempre habra **Errores** y se hara reparaciones de **Bugs** si hace falta.
 
 ## ChangeLogs
 ### Version 1.0
 
 - Funciones basicas de **Create, Read, Update y Delete**
-- Funciones adicionales como **Descargar** lista en Excel y la **Fecha**
+- Funciones adicionales como **Descargar** lista en Excel
+- La **Fecha** en label abajo de la lista
 
 ### Version 1.0.1
 
@@ -29,3 +33,9 @@ private SqlConnection Conexion = new SqlConnection("Server=DESKTOP-MFBH1RN\\SQLE
 ```
 
 Cambiar el *DESKTOP-MFBH1RN* por el nombre de su SQL SERVER y *objetos* por el nombre del objeto
+
+## SQL SERVER EXPRESS
+
+- Se uso **Windows Authentication** como autenticador
+- La carpeta DATA se coloca en la ruta de *C:\Program Files\Microsoft SQL Server\MSSQL16.SQLEXPRESS\MSSQL*, donde se guarda todos los base de datos (Si por alguna razon no es posible guardar el archivo, parar el servicio de SQL SERVER EXPRESS)
+- Los archivos de **objetos.sql** y **Solution1.ssmssln** se coloca en la ruta de *C:\Documents\SQL Server Management Studio\* 
