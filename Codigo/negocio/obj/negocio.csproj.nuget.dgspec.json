@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj": {}
+    "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj": {
+    "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj",
+        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj",
         "projectName": "datos",
-        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj",
+        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj",
         "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\obj\\",
+        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj": {
+    "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj",
+        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj",
         "projectName": "negocio",
-        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj",
+        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj",
         "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\obj\\",
+        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj": {
-                "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj"
+              "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj": {
+                "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj"
               }
             }
           }

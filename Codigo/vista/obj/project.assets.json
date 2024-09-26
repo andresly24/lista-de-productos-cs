@@ -5233,11 +5233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla\\vista\\vista.csproj",
+      "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\vista\\vista.csproj",
       "projectName": "vista",
-      "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\vista\\vista.csproj",
+      "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\vista\\vista.csproj",
       "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\vista\\obj\\",
+      "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\vista\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5259,8 +5259,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj": {
-              "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj"
+            "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj": {
+              "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj"
             }
           }
         }

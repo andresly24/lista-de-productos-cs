@@ -22,6 +22,13 @@ Es un proyecto de practica por lo cual siempre habra **Errores** y se hara repar
 - Se agrego movimiento al WinForm
 - Se agrego el boton de **Minimizar**
 
+### Version 2.0
+
+- Nuevo diseño de Interfaz
+- Implemento de Menu
+- Se agrego el Interfaz de Comprimir 
+- Se migro el **Form** de Listas de Items a **User Controls**
+
 ## Conexion a SQL SERVER
 
 Se debe cambiar los nombre dependiendo de su SQL SERVER en el archive

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj": {}
+    "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj": {
+    "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj",
+        "projectUniqueName": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj",
         "projectName": "datos",
-        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\datos.csproj",
+        "projectPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\datos.csproj",
         "packagesPath": "C:\\Users\\TechSoft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\datos\\obj\\",
+        "outputPath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\datos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

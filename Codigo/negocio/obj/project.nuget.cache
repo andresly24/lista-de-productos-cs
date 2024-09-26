@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HbqU+CejLuw=",
+  "dgSpecHash": "8W8CY6gHPos=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TechSoft\\source\\repos\\tabla\\negocio\\negocio.csproj",
+  "projectFilePath": "C:\\Users\\TechSoft\\source\\repos\\tabla 2.0\\negocio\\negocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TechSoft\\.nuget\\packages\\closedxml\\0.102.3\\closedxml.0.102.3.nupkg.sha512",
     "C:\\Users\\TechSoft\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
