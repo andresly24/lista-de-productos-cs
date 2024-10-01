@@ -26,8 +26,9 @@ Es un proyecto de practica por lo cual siempre habra **Errores** y se hara repar
 
 - Nuevo diseño de Interfaz
 - Implemento de Menu
-- Se agrego el Interfaz de Comprimir 
+- Se agrego el Interfaz de **Comprimir** 
 - Se migro el **Form** de Listas de Items a **User Controls**
+- Se agrego la funcion de **Comprimir** archivos a carpeta *.zip*
 
 ## Conexion a SQL SERVER
 
