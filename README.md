@@ -5,11 +5,14 @@ Una practica basica de conexion entre SQL SERVER EXPRESS y CSharp con listas de 
 Es un proyecto de practica por lo cual siempre habra **Errores** y se hara reparaciones de **Bugs** si hace falta.
 
 ## ChangeLogs
-### Version 1.0
 
-- Funciones basicas de **Create, Read, Update y Delete**
-- Funciones adicionales como **Descargar** lista en Excel
-- La **Fecha** en label abajo de la lista
+### Version 2.0
+
+- Nuevo diseño de Interfaz
+- Implemento de Menu
+- Se agrego el Interfaz de **Comprimir** 
+- Se migro el **Form** de Listas de Items a **User Controls**
+- Se agrego la funcion de **Comprimir** archivos a carpeta *.zip*
 
 ### Version 1.0.1
 
@@ -22,13 +25,12 @@ Es un proyecto de practica por lo cual siempre habra **Errores** y se hara repar
 - Se agrego movimiento al WinForm
 - Se agrego el boton de **Minimizar**
 
-### Version 2.0
+### Version 1.0
 
-- Nuevo diseño de Interfaz
-- Implemento de Menu
-- Se agrego el Interfaz de **Comprimir** 
-- Se migro el **Form** de Listas de Items a **User Controls**
-- Se agrego la funcion de **Comprimir** archivos a carpeta *.zip*
+- Funciones basicas de **Create, Read, Update y Delete**
+- Funciones adicionales como **Descargar** lista en Excel
+- La **Fecha** en label abajo de la lista
+
 
 ## Conexion a SQL SERVER
 
