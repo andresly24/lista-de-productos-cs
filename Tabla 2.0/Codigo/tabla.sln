@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "datos", "datos\datos.csproj", "{084DCE28-422B-4BDE-9106-B793D69DF83E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "negocio", "negocio\negocio.csproj", "{77066E2C-8DF4-4FDD-A054-320B90E24BF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vista", "vista\vista.csproj", "{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{084DCE28-422B-4BDE-9106-B793D69DF83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084DCE28-422B-4BDE-9106-B793D69DF83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084DCE28-422B-4BDE-9106-B793D69DF83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084DCE28-422B-4BDE-9106-B793D69DF83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77066E2C-8DF4-4FDD-A054-320B90E24BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77066E2C-8DF4-4FDD-A054-320B90E24BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77066E2C-8DF4-4FDD-A054-320B90E24BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77066E2C-8DF4-4FDD-A054-320B90E24BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C56FCCB-597E-4D20-9A28-371367018213}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/andresly24
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = datos\\datos.csproj
+		SccProjectName1 = datos
+		SccLocalPath1 = datos
+		SccProjectUniqueName2 = negocio\\negocio.csproj
+		SccProjectName2 = negocio
+		SccLocalPath2 = negocio
+		SccProjectUniqueName3 = vista\\vista.csproj
+		SccProjectName3 = vista
+		SccLocalPath3 = vista
+	EndGlobalSection
+EndGlobal

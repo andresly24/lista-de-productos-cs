@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|c:\\users\\techsoft\\documents\\repos c#\\lista-de-productos-cs\\tabla 2.0\\codigo\\vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|solutionrelative:vista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|c:\\users\\techsoft\\documents\\repos c#\\lista-de-productos-cs\\tabla 2.0\\codigo\\vista\\vista.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF8ADB9C-8381-4647-ACB3-7BF4EB24A83E}|vista\\vista.csproj|solutionrelative:vista\\vista.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs",
+              "RelativeDocumentMoniker": "vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs [Design]",
+              "RelativeToolTip": "vista\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:30:09.699Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vista",
+              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
+              "RelativeDocumentMoniker": "vista\\vista.csproj",
+              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
+              "RelativeToolTip": "vista\\vista.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T21:29:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1858,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
