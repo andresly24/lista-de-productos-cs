@@ -1,0 +1,24 @@
+C:\Users\TechSoft\source\repos\tabla\datos\bin\Debug\net8.0\datos.deps.json
+C:\Users\TechSoft\source\repos\tabla\datos\bin\Debug\net8.0\datos.dll
+C:\Users\TechSoft\source\repos\tabla\datos\bin\Debug\net8.0\datos.pdb
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.csproj.AssemblyReference.cache
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.AssemblyInfoInputs.cache
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.AssemblyInfo.cs
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.csproj.CoreCompileInputs.cache
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.dll
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\refint\datos.dll
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\datos.pdb
+C:\Users\TechSoft\source\repos\tabla\datos\obj\Debug\net8.0\ref\datos.dll
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\bin\Debug\net8.0\datos.deps.json
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\bin\Debug\net8.0\datos.dll
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\bin\Debug\net8.0\datos.pdb
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.csproj.AssemblyReference.cache
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.AssemblyInfoInputs.cache
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.AssemblyInfo.cs
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.csproj.CoreCompileInputs.cache
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.dll
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\refint\datos.dll
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\datos.pdb
+C:\Users\TechSoft\source\repos\tabla 1.0\datos\obj\Debug\net8.0\ref\datos.dll
