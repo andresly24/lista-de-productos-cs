@@ -63,15 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "vista",
+              "Title": "vista.csproj",
               "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
               "RelativeDocumentMoniker": "vista\\vista.csproj",
               "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
               "RelativeToolTip": "vista\\vista.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T21:29:27.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T21:29:27.612Z"
             }
           ]
         },

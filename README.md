@@ -4,7 +4,19 @@ Una practica basica de conexion entre SQL SERVER EXPRESS y CSharp con listas de 
 
 Es un proyecto de practica por lo cual siempre habra **Errores** y se hara reparaciones de **Bugs** si hace falta.
 
+**!! Nuevo**: Este proyecto avanzo que tanto que ya no es solo de **Registro de Productos en CSharp**, la version 1.0 se mantendra
+como la lista, mientras que las otras actualizaciones sera un menu con varias funciones.
+
 ## ChangeLogs
+
+## Version 3.0.0
+- Se agrego el Interfaz de **BlackJack21**
+- Se cambio los iconos
+
+## Version 2.0.1
+
+- Se agrego la funcion de elegir la carpeta *.zip* por el nombre de la carpeta elegido
+- Se agrego condicionales si la carpeta **archivetxt** se encuentra vacio
 
 ### Version 2.0
 

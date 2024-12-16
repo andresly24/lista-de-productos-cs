@@ -18,33 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs",
-              "RelativeDocumentMoniker": "vista\\Form1.cs",
-              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs [Design]",
-              "RelativeToolTip": "vista\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:30:09.699Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vista",
-              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
-              "RelativeDocumentMoniker": "vista\\vista.csproj",
-              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
-              "RelativeToolTip": "vista\\vista.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T21:29:27.612Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -72,6 +47,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs",
+              "RelativeDocumentMoniker": "vista\\Form1.cs",
+              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\Form1.cs [Design]",
+              "RelativeToolTip": "vista\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T21:30:09.699Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vista",
+              "DocumentMoniker": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
+              "RelativeDocumentMoniker": "vista\\vista.csproj",
+              "ToolTip": "C:\\Users\\TechSoft\\Documents\\Repos C#\\lista-de-productos-cs\\Tabla 2.0\\Codigo\\vista\\vista.csproj",
+              "RelativeToolTip": "vista\\vista.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T21:29:27.612Z",
+              "EditorCaption": ""
             }
           ]
         },
