@@ -52,12 +52,14 @@
             panel4 = new Panel();
             reiniciarbtn = new Button();
             playbtn = new Button();
+            panel1 = new Panel();
             jc1.SuspendLayout();
             jc2.SuspendLayout();
             rc2.SuspendLayout();
             rc1.SuspendLayout();
             panel3.SuspendLayout();
             panel4.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -211,9 +213,7 @@
             // panel3
             // 
             panel3.BackColor = SystemColors.InactiveBorder;
-            panel3.Controls.Add(pararbtn);
             panel3.Controls.Add(rlabel);
-            panel3.Controls.Add(seguirbtn);
             panel3.Controls.Add(jlabel);
             panel3.Controls.Add(rcount);
             panel3.Controls.Add(jcount);
@@ -223,6 +223,7 @@
             panel3.Controls.Add(rc1);
             panel3.Controls.Add(label1);
             panel3.Controls.Add(label2);
+            panel3.Controls.Add(panel1);
             panel3.Location = new Point(178, 9);
             panel3.Name = "panel3";
             panel3.Size = new Size(866, 552);
@@ -237,7 +238,7 @@
             pararbtn.FlatStyle = FlatStyle.Flat;
             pararbtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             pararbtn.ForeColor = SystemColors.ControlLightLight;
-            pararbtn.Location = new Point(387, 492);
+            pararbtn.Location = new Point(156, 12);
             pararbtn.Name = "pararbtn";
             pararbtn.Size = new Size(127, 33);
             pararbtn.TabIndex = 12;
@@ -264,7 +265,7 @@
             seguirbtn.FlatStyle = FlatStyle.Flat;
             seguirbtn.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             seguirbtn.ForeColor = SystemColors.ControlLightLight;
-            seguirbtn.Location = new Point(245, 492);
+            seguirbtn.Location = new Point(14, 12);
             seguirbtn.Name = "seguirbtn";
             seguirbtn.Size = new Size(127, 33);
             seguirbtn.TabIndex = 11;
@@ -309,7 +310,7 @@
             panel4.Controls.Add(playbtn);
             panel4.Location = new Point(9, 9);
             panel4.Name = "panel4";
-            panel4.Size = new Size(159, 115);
+            panel4.Size = new Size(159, 117);
             panel4.TabIndex = 8;
             // 
             // reiniciarbtn
@@ -346,6 +347,16 @@
             playbtn.UseVisualStyleBackColor = false;
             playbtn.Click += playbtn_Click;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ControlLightLight;
+            panel1.Controls.Add(pararbtn);
+            panel1.Controls.Add(seguirbtn);
+            panel1.Location = new Point(231, 480);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(296, 57);
+            panel1.TabIndex = 9;
+            // 
             // blackjack
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -366,6 +377,7 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel4.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -396,5 +408,6 @@
         private Label rlabel;
         private Label jlabel;
         private Panel paneloJ;
+        private Panel panel1;
     }
 }
