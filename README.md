@@ -9,11 +9,11 @@ como la lista, mientras que las otras actualizaciones sera un menu con varias fu
 
 ## ChangeLogs
 
-## Version 3.0.0
+### Version 3.0.0
 - Se agrego el Interfaz de **BlackJack21**
 - Se cambio los iconos
 
-## Version 2.0.1
+### Version 2.0.1
 
 - Se agrego la funcion de elegir la carpeta *.zip* por el nombre de la carpeta elegido
 - Se agrego condicionales si la carpeta **archivetxt** se encuentra vacio
